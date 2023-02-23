@@ -23,3 +23,6 @@
 // }
 
 // acumulador ();
+
+//ejercicio 3
+
