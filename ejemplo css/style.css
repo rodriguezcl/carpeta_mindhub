@@ -1,0 +1,23 @@
+.h2{
+    color: blue;
+    font-style: italic;
+}
+#importante {
+    font-weight: bold;
+    color: crimson;
+}
+
+div>p {
+    color: blueviolet;
+    font-style: italic;
+}
+
+div span {
+    color: cornflowerblue;
+}
+
+header {
+    background-color: darkgreen;
+    color: azure;
+    text-align: center;
+}

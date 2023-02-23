@@ -1,0 +1,65 @@
+*{
+    font-family: 'Imprima', sans-serif;
+    color: #3d405b;
+}
+
+nav{
+    height: 25px;
+    background-color: #588b8b;
+    padding-left: 5px;
+}
+
+a {
+    color: #e07a5f;
+    background-color: #f4f1de;
+    border-radius: 5px;
+    text-decoration: none;
+    line-height: 25px;
+    text-align: center;
+    padding: 1px 10px;
+   }
+
+a[href="#"]{
+    color: #c8553d;
+    font-weight: bold;
+}
+
+
+.img-perfil{
+    height: 200px;
+    filter: drop-shadow(6px 10px 2px #588b8b);
+}
+
+.info {
+background-color: #e07a5f;
+border-radius: 10px;
+}
+
+section.info {
+    box-shadow: 5px 5px #588b8b;
+}
+
+section.info > p {
+    color: #f4f1de;
+    text-align: center;
+}
+
+h2 {
+    background-color: #c8553d;
+    height: 50px;
+    border-radius: 10px;
+    text-align: end;
+    text-decoration: underline;
+    background-image: url(./assets/pochita-fondo.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 50px;
+    padding-right: 10px;
+}
+
+h1, #bienvenida {
+    font-weight: bold;
+    color: #c8553d;
+
+}

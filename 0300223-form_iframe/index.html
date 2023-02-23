@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Postulate al puesto de desarrollador Front End Jr.</h1>
+
+    <form action="./show_data.html" method="get">
+
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="fname">Nombre</label>
+            <input type="text" placeholder="Escriba su nombre" name="fname" id="fname">
+            <label for="lname">Apellido</label>
+            <input type="text" placeholder="Escriba su apellido" name="lname" id="lname">
+            <label for="age">Edad</label>
+            <input type="number" placeholder="Escriba su edad" name="age" id="age">
+        </fieldset>
+
+        <fieldset>
+            <legend>Género</legend>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="hombre" name="hombre">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="mujer" name="mujer">
+            <label for="otro">Otro</label>
+            <input type="radio" id="otro" name="otro">
+        </fieldset>
+
+        <fieldset>
+            <legend>Tecnologias</legend>
+            <label for="html5">HTML5</label>
+            <input type="checkbox" name="html5" id="html5">
+            <label for="css">CSS</label>
+            <input type="checkbox" name="css" id="css">
+            <label for="javascript">JAVASCRIPT</label>
+            <input type="checkbox" name="javascript" id="javascript">
+        </fieldset>
+
+        <fieldset>
+            <legend>Nivel académico alcanzado</legend>
+            <select name="level" selected id="">
+                <option value="" name="level">Seleccionar</option>
+                <option value="primario" name="level">Primaria</option>
+                <option value="secundario" name="level">Secundario</option>
+                <option value="terciario" name="level">Terciario</option>
+            </select>
+        </fieldset>
+
+        <textarea name="descripcion" id="" cols="30" rows="10">asasdsad</textarea>
+        <input type="submit" style="background-color: aqua;">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 80vh;
+    width: 80vw;
+    margin: 10%;
+    position: relative;
+    background-image: url(./sky.png);
+}
+
+.pusheen{
+    width: 100px;
+}
+
+#guitar{
+    position: absolute;
+    z-index: 1;
+    bottom: 20px;
+    right: 20px;
+}
+
+#detective{
+    position: sticky;
+    top: 50px;
+}
+
+#unicorn{
+    position: fixed;
+    z-index: 2;
+    bottom: 20px;
+    right: 20px;
+}

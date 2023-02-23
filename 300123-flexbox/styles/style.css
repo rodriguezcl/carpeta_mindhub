@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-flex{
+    background-image: url(../assets/img/fondo.png);
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+flex-wrap: wrap;
+}
+
+.container{
+    height: 10rem;
+    width: 10rem;
+    border: 2px solid red;
+}
+
+img {
+    height: 10rem;
+    width: 10rem;
+    object-fit: contain;
+}
+
+.negro {
+    align-content: end;
+}
