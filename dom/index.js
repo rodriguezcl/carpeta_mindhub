@@ -48,7 +48,7 @@ let productos = [
 }
 imprimirCards(productos,container) */
 
-/* const fragment = document.createDocumentFragment();
+const fragment = document.createDocumentFragment();
 
 function imprimirCards(array, contenedor){
     for(let producto of array){
@@ -65,4 +65,4 @@ function imprimirCards(array, contenedor){
     }
     contenedor.appendChild(fragment)
 }
-imprimirCards(productos, container) */
+imprimirCards(productos, container)
