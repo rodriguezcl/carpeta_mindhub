@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* width: 100vw; */
+    height: 100vh;
+}
+header{
+    width: 100%;
+    font-family: 'Titan One', cursive;
+    height: 15vh;
+    display: flex;
+}
+header>div{
+    display: flex;
+    height: inherit;
+}
+.logo{
+    height: 90%;
+}
+header>a{
+    align-self: self-end;
+    justify-self: self-end;
+}
+main{
+    min-height: 77vh;
+}
+section>div{
+    width: 90%;
+}
+section>h2{
+    font-family: 'Titan One', cursive;
+    padding: .5rem;
+}
+.card{
+    padding: 1%;
+}
+.card>div{
+    height: 50%;
+}
+footer{
+    font-family: 'Titan One', cursive;
+    height: 7vh;
+}
