@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cargar archivo Excel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+  </head>
+  <body>
+    <header class="bg-image">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Mi Proyecto</h1>
+            </div>
+            <div class="col-md-6 text-right">
+              <img src="./gradienta-QWutu2BRpOs-unsplash.jpg" alt="Imagen de fondo">
+            </div>
+          </div>
+        </div>
+      </header>
+      
+
+    <input type="file" id="file-input">
+    <button onclick="loadExcel()">Cargar</button>
+    <button onclick="toggleTable()">Mostrar/ocultar tabla</button>
+
+
+    <table id="table"></table>
+
+    <div id="stats-section">
+        <h2>Estadísticas</h2>
+        <p id="stats"></p>
+      </div>
+    
+    
+    
+    
+    <script src="excelToArray.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+
+  </body>
+</html>

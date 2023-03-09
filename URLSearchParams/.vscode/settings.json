@@ -1,3 +1,4 @@
 {
-    "vscode-pets.petColor": "purple"
+    "vscode-pets.petColor": "purple",
+    "liveServer.settings.port": 5501
 }

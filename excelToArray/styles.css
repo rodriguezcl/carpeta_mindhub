@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+
+  .bg-image {
+    background-image: url('./gradienta-QWutu2BRpOs-unsplash.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 50px 0;
+  }
+  
+  .bg-image h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .bg-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
